@@ -1,0 +1,111 @@
+    nav {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    padding: 9px 0;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+    align-content: center;
+    }
+     nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 10px 20px;
+     }
+    
+     nav ul li a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-weight: bold;
+     }
+    
+     nav ul li a:hover{
+        color: red;
+     }
+
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+      body {
+        margin: 0;
+        background-size: cover;
+        font-family: var(--bs-body-font-family);
+        font-size: var(--bs-body-font-size);
+        font-weight: var(--bs-body-font-weight);
+        line-height: var(--bs-body-line-height);
+        color: #ffffff;
+        text-align: var(--bs-body-text-align);
+        background-image: url(https://images.pexels.com/photos/4309369/pexels-photo-4309369.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        -webkit-text-size-adjust: 100%;
+        -webkit-tap-highlight-color: transparent;
+        }
+     
+    img {
+      overflow-clip-margin: content-box;
+      overflow: clip;
+      height: 44%;
+      border-radius: 61%;
+      margin-inline-start: 55px;
+      width: 59%;
+       }
+
+  .h2, h2 {
+    font-size: 2rem;
+    margin-inline-start: 39px;
+    padding: 11%;
+    }
+
+    p {
+      margin-top: 0;
+      font-family: emoji;
+      margin-bottom: 1rem;
+     }
+
